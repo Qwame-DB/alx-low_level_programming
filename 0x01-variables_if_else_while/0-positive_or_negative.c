@@ -3,8 +3,9 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-int main(void) /*entry point */
+/** main(void) indicates that the main function will be called without any parameter
+ */
+int main(void) 
 {
 int n;
 

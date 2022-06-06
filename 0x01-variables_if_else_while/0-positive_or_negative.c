@@ -3,9 +3,13 @@
 #include <time.h>
 /* more headers goes there */
 
-/** main(void) indicates that the main function will be called without any parameter
+/**
+ * main - entry point into my code
+ *
+ * Description: finds the sign of the value of n
+ * Return: returns 0
  */
-int main(void) 
+int main(void)
 {
 int n;
 

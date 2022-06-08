@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - check the code
  *
- * Description:
+ * Description: prints _putchar
  * Return: Always 0
  */
 int main(void)
 {
-printf("_putchar\n");
+_putchar('l');
 return (0);
 }

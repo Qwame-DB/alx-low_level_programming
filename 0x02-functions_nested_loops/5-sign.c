@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_sign - check the code
@@ -18,9 +19,10 @@ else if (n == '0')
 return (0);
 _putchar ('0');
 }
-else if (n < '0')
+else(n < '0')
 {
 return (-1);
 _putchar ('-');
 }
+return (0);
 }

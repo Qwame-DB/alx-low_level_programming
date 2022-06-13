@@ -4,18 +4,15 @@
 /* more headers goes there */
 
 /**
- * main - entry point into my code
+ * positive_or_negative - entry point into my code
  *
+ *@n: variable for a nuo
+mber
  * Description: finds the sign of the value of n
  * Return: returns 0
  */
-int main(void)
+int positive_or_negative(int n)
 {
-int n;
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-/* your code goes there */
 if (n > 0)
 {
 printf("%d is positive\n", n);

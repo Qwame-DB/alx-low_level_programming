@@ -2,7 +2,8 @@
 /**
  * swap_int - check the code
  *
- * @a,b: pointers to variables
+ * @a: pointer to variable
+ * @b: pointer to variable
  * Return: void
  */
 void swap_int(int *a, int *b)

@@ -30,7 +30,7 @@ int loop, len;
 len = _strlen(str);
 if (len % 2 != 0)
 {
-len = len / 2;
+len = len - 1;
 }
 for (loop = len / 2; loop <  len; loop++)
 {

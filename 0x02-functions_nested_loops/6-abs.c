@@ -2,7 +2,7 @@
 /**
  * _abs - function for the absolute integer
  *
- * @int: type of a variable
+ * @x: integer variable
  * Return: always 0
  */
 int _abs(int x)

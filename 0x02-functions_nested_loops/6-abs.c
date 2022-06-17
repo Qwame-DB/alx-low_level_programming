@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- * _abs - prints the absolute integer
+ * _abs - function for the absolute integer
  *
  * @int: type of a variable
  * Return: always 0
  */
-int _abs(int)
+int _abs(int x)
 {
-int ru;
-
-ru = srlen(int);
-if (ru > 1)
+if (x < 0)
 {
-_putchar(srlen(int[1]));
+x = x * -1;
+}
+else
+{
+x = x * 1;
 }
 return (0);
 }

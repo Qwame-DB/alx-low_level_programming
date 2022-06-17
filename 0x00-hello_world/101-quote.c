@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char *y = "and that piece of art is useful\" - Dora Korpar, 2015-10-19,\n";
+char *y = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 fputs(y, stderr);
 return (1);
 }

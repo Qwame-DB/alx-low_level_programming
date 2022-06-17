@@ -18,6 +18,7 @@ if (a == 'q')
 {
 a++;
 }
+putchar(a);
 }
 putchar ('\n');
 return (0);
